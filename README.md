@@ -306,8 +306,8 @@ cargo build --release --target aarch64-linux-android
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 [Issue](https://github.com/your-username/audio-helper/issues)
-- 发送邮件到 your-email@example.com
+- 提交 [Issue](https://github.com/EchoNoReturn/audio-helper/issues)
+- 发送邮件到 yoyojcoder@qq.com
 
 ---
 
