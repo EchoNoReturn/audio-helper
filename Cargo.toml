@@ -1,0 +1,17 @@
+[package]
+name = "audio-helper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mp3lame-encoder = "0.2.1"
+byteorder = "1.4"
+
+[lib]
+name = "audio_helper"
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[profile.release]
+lto = true
+opt-level = 3
+panic = "abort"
